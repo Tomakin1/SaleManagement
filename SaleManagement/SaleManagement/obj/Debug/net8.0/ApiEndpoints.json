@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "SaleManagement.Controllers.ValuesController",
+    "Method": "Get",
+    "RelativePath": "sales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
