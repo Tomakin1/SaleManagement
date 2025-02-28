@@ -1,6 +1,9 @@
-
+﻿
 using Microsoft.EntityFrameworkCore;
 using SaleManagement.Context;
+using SaleManagement.Repositories.Implementations;
+using SaleManagement.Repositories.Interfaces;
+using System.Text.Json.Serialization;
 
 namespace SaleManagement
 {
@@ -17,6 +20,18 @@ namespace SaleManagement
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddControllers()
+            .AddJsonOptions(options =>
+            {
+                 options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve; // Döngüsel referansları önler
+                 options.JsonSerializerOptions.WriteIndented = true; // JSON'u okunabilir hale getirir (Gereksizse kaldır)
+            });
+
+            
+            builder.Services.AddLogging(); // 🔥 Logger'ı ekledik
+
+
+
 
 
 
@@ -24,6 +39,9 @@ namespace SaleManagement
             var connStr = builder.Configuration.GetConnectionString("dockerConnection");
 
             builder.Services.AddDbContext<SaleContext>(options => options.UseSqlServer(connStr));
+            builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
 
             var app = builder.Build();
 
