@@ -1,0 +1,233 @@
+[
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "GetAllBrandsProducts",
+    "RelativePath": "Brand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "DeleteBrand",
+    "RelativePath": "Brand/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "GetBrandById",
+    "RelativePath": "Brand/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "GetAllBrands",
+    "RelativePath": "Brand/Brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "GetProductsByBrand",
+    "RelativePath": "Brand/product-brand/{Name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "AddCustomer",
+    "RelativePath": "customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "SaleManagement.Models.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "getCustomerDetailsByName",
+    "RelativePath": "customer/{FirstName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "GetCustomerProductsByName",
+    "RelativePath": "customer/{Firstname}/{Lastname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Firstname",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Lastname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "customer/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "customer/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "GetNameStock",
+    "RelativePath": "product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "DeleteProductById",
+    "RelativePath": "product/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "product/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "GetAllProduct",
+    "RelativePath": "product/all-products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "GetProductByPrice",
+    "RelativePath": "product/by-price/{Price}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Price",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
