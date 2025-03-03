@@ -10,6 +10,10 @@ namespace SaleManagement.Repositories.Interfaces
         Product GetProductById(int Id);
         List<ProductDto> GetNameStock();   //  ürünlerin ürün ve stok bilgilerini getirmek için ismi bu şekilde yazdım
         ProductDto GetProductByPrice(int Price);
+        void UpdateProduct(int Id, ProductDto Product);
+        void AddProduct(ProductDto ProductDto);
+
+
 
 
     }

@@ -1,353 +1,338 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomak\\Desktop\\SaleManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\repositories\\implementations\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\repositories\\implementations\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\implementations\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\dtos\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\dtos\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\repositories\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\context\\salecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\context\\salecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\context\\salecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\tomak\\desktop\\salemanagement\\salemanagement\\migrations\\20250227180747_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\migrations\\20250227180747_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\typeconfigs\\customertypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\typeconfigs\\customertypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\typeconfigs\\producttypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\typeconfigs\\producttypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\typeconfigs\\customerdetailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\typeconfigs\\customerdetailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\typeconfigs\\brandtypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\typeconfigs\\brandtypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\repositories\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\repositories\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\models\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\models\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\dtos\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\dtos\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salemanagement\\salemanagement\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009F9712-C7A2-40EC-BE55-0918F5A665FA}|SaleManagement\\SaleManagement.csproj|solutionrelative:salemanagement\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Models\\Brand.cs",
-              "RelativeToolTip": "SaleManagement\\Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T12:38:50.463Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Models\\Product.cs",
-              "RelativeToolTip": "SaleManagement\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Title": "BrandTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\BrandTypeConfig.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\TypeConfigs\\BrandTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\BrandTypeConfig.cs",
+              "RelativeToolTip": "SaleManagement\\TypeConfigs\\BrandTypeConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T12:34:44.822Z",
+              "WhenOpened": "2025-03-03T11:08:26.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerDetailConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\CustomerDetailConfig.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\TypeConfigs\\CustomerDetailConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\CustomerDetailConfig.cs",
+              "RelativeToolTip": "SaleManagement\\TypeConfigs\\CustomerDetailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:05:44.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\ProductTypeConfig.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\TypeConfigs\\ProductTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\ProductTypeConfig.cs",
+              "RelativeToolTip": "SaleManagement\\TypeConfigs\\ProductTypeConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:03:09.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\CustomerTypeConfig.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\TypeConfigs\\CustomerTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\TypeConfigs\\CustomerTypeConfig.cs",
+              "RelativeToolTip": "SaleManagement\\TypeConfigs\\CustomerTypeConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:58:59.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeToolTip": "SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAcwD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:13:14.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\CustomerDetailDto.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Dtos\\CustomerDetailDto.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\CustomerDetailDto.cs",
-              "RelativeToolTip": "SaleManagement\\Dtos\\CustomerDetailDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SaleContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Context\\SaleContext.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Context\\SaleContext.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Context\\SaleContext.cs",
+              "RelativeToolTip": "SaleManagement\\Context\\SaleContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T12:18:06.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\BrandController.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Controllers\\BrandController.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\BrandController.cs",
-              "RelativeToolTip": "SaleManagement\\Controllers\\BrandController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAIBAwH8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T21:31:12.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IBrandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
-              "RelativeToolTip": "SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T21:22:30.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "SaleManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\appsettings.json",
-              "RelativeToolTip": "SaleManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-01T16:30:58.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
-              "RelativeToolTip": "SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAuwJEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T14:19:01.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SaleManagement\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T13:22:51.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "SaleManagement\\Dtos\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T12:01:17.571Z",
+              "WhenOpened": "2025-03-03T11:14:27.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "BrandDto.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\BrandDto.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Dtos\\BrandDto.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\BrandDto.cs",
-              "RelativeToolTip": "SaleManagement\\Dtos\\BrandDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA0wAsAAAAAAAAAAAAAAA==",
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "SaleManagement\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T11:58:12.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T10:39:05.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:33:46.472Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
-              "RelativeToolTip": "SaleManagement\\Repositories\\Implementations\\CustomerRepository.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
+              "RelativeToolTip": "SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T06:27:19.216Z",
+              "WhenOpened": "2025-03-03T06:46:26.678Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
+              "RelativeToolTip": "SaleManagement\\Repositories\\Interfaces\\IBrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T06:46:01.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerDetail.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Models\\CustomerDetail.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Models\\CustomerDetail.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Models\\CustomerDetail.cs",
+              "RelativeToolTip": "SaleManagement\\Models\\CustomerDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T06:23:00.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Dtos\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\CustomerDto.cs",
+              "RelativeToolTip": "SaleManagement\\Dtos\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T05:29:49.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "SaleManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:56:41.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "SaleManagement\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:55:19.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:56:54.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Program.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Program.cs",
-              "RelativeToolTip": "SaleManagement\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCEAAAAAAAAAAAAAAA==",
+              "Title": "CustomerDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\CustomerDetailDto.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Dtos\\CustomerDetailDto.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Dtos\\CustomerDetailDto.cs",
+              "RelativeToolTip": "SaleManagement\\Dtos\\CustomerDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T05:56:44.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeToolTip": "SaleManagement\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T05:27:20.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "SaleManagement\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAcwGcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:10:35.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250227180747_FirstMigration.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Migrations\\20250227180747_FirstMigration.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Migrations\\20250227180747_FirstMigration.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Migrations\\20250227180747_FirstMigration.cs",
-              "RelativeToolTip": "SaleManagement\\Migrations\\20250227180747_FirstMigration.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:07:53.642Z"
+              "WhenOpened": "2025-03-03T07:07:39.237Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "SaleContext.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Context\\SaleContext.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Context\\SaleContext.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Context\\SaleContext.cs",
-              "RelativeToolTip": "SaleManagement\\Context\\SaleContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA/wHUAAAAJAAAAAAAAAA==",
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "SaleManagement\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAIwJoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:33:19.947Z"
+              "WhenOpened": "2025-03-03T06:49:39.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Models\\Customer.cs",
-              "RelativeToolTip": "SaleManagement\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:01:59.437Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "9afc442d-df4e-4b4e-bdd3-338ddf9e8ba0",
-        "Display": 1,
-        "X": 418,
-        "Y": 298,
-        "Width": 1612,
-        "Height": 960,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "DocumentIndex": 18,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAkTAAAAAAAAAAAzwBcTAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-03T05:58:39.818Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BrandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
-              "RelativeDocumentMoniker": "SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\SaleManagement\\SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
-              "RelativeToolTip": "SaleManagement\\Repositories\\Implementations\\BrandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "SaleManagement\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAIwIMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T21:14:10.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T04:53:11.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SaleManagement\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SaleManagement\\SaleManagement\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SaleManagement\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAIwIoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:52:04.11Z"
             }
           ]
         }

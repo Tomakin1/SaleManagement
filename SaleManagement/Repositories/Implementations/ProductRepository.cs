@@ -62,6 +62,35 @@ namespace SaleManagement.Repositories.Implementations
             }
         }
 
+        public void UpdateProduct(int Id, ProductDto productDto)
+        {
+            try
+            {
+                var CurrentProduct = GetProductById(Id);
+
+                if (CurrentProduct == null)
+                {
+                    _logger.LogError("Verilen Id'ye Ait Ürün Bulunamadı");
+                    return;
+                }
+
+                
+                CurrentProduct.Name = productDto.Name;
+                CurrentProduct.Description = productDto.Description;
+                CurrentProduct.Price = productDto.Price;
+                CurrentProduct.Stock = productDto.Stock;
+
+                _db.Products.Update(CurrentProduct);
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Bilinmeyen Bir Hata Oluştu: {ex.Message}");
+                throw;
+            }
+        }
+
+
 
         public List<ProductDto> GetNameStock()
         {
@@ -70,7 +99,7 @@ namespace SaleManagement.Repositories.Implementations
                 if (_db.Products == null)
                 {
                     _logger.LogError("Veritabanı bağlantısı yok veya Products tablosu bulunamadı.");
-                    return new List<ProductDto>(); // Boş liste döndür
+                    return new List<ProductDto>(); 
                 }
 
                 var productInfos = _db.Products
@@ -91,7 +120,7 @@ namespace SaleManagement.Repositories.Implementations
             catch (Exception e)
             {
                 _logger.LogError(e, "Veritabanı hatası oluştu.");
-                throw; // Hatayı fırlat
+                throw; 
             }
         }
 
@@ -141,5 +170,32 @@ namespace SaleManagement.Repositories.Implementations
             
             return product;
         }
+
+        public void AddProduct(ProductDto productDto) // Tekrar Et
+        {
+            try
+            {
+                var newProduct = new Product
+                {
+                    Name = productDto.Name,
+                    Price = productDto.Price,
+                    Stock = productDto.Stock,
+                    Description = productDto.Description,
+                    CustomerId = productDto.CustomerId,
+                    BrandId = productDto.BrandId
+
+                };
+
+                _db.Products.Add(newProduct);
+                _db.SaveChanges();
+                
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Ürün eklenirken bir hata oluştu.");
+                throw new Exception("Bilinmeyen bir hata oluştu", ex);
+            }
+        }
+
     }
 }

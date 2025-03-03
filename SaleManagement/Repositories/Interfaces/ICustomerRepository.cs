@@ -6,16 +6,13 @@ namespace SaleManagement.Repositories.Interfaces
     public interface ICustomerRepository
     {
         void DeleteCustomer(int Id);
-        List<CustomerDto>Customers { get; }
+        List<CustomerDto> Customers { get; }
         Customer GetCustomerById(int Id);
         CustomerDto GetCustomerDetailsByName(string Name);
         CustomerDto GetCustomerProductsByName(string Firstname, string Lastname);
-        //void AddCustomer(Customer customerDto);
+        void AddCustomer(CustomerDto customerDto);
 
-
-
-
-
+        void UpdateCustomer(int Id, CustomerDto customerDetail);
 
     }
 }

@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "AddBrand",
+    "RelativePath": "Brand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brandDto",
+        "Type": "SaleManagement.Dtos.BrandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
     "Method": "DeleteBrand",
     "RelativePath": "Brand/{Id}",
     "HttpMethod": "DELETE",
@@ -20,6 +36,27 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.BrandController",
+    "Method": "UpdateBrand",
+    "RelativePath": "Brand/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newBrand",
+        "Type": "SaleManagement.Dtos.BrandDto",
         "IsRequired": true
       }
     ],
@@ -86,8 +123,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customer",
-        "Type": "SaleManagement.Models.Customer",
+        "Name": "customerDto",
+        "Type": "SaleManagement.Dtos.CustomerDto",
         "IsRequired": true
       }
     ],
@@ -163,6 +200,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SaleManagement.Controllers.CustomerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "customer/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customerDetail",
+        "Type": "SaleManagement.Dtos.CustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SaleManagement.Controllers.ProductController",
     "Method": "GetNameStock",
     "RelativePath": "product",
@@ -190,6 +248,27 @@
   },
   {
     "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "product/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newProduct",
+        "Type": "SaleManagement.Dtos.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
     "Method": "GetProductById",
     "RelativePath": "product/{Id}",
     "HttpMethod": "GET",
@@ -199,6 +278,22 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaleManagement.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "product/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "SaleManagement.Dtos.ProductDto",
         "IsRequired": true
       }
     ],

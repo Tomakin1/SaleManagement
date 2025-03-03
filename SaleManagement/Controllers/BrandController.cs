@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SaleManagement.Dtos;
+using SaleManagement.Models;
 using SaleManagement.Repositories.Interfaces;
 
 namespace SaleManagement.Controllers
@@ -65,6 +67,40 @@ namespace SaleManagement.Controllers
             }
         }
 
+        [HttpPut("{Id:int}")]
+        public IActionResult UpdateBrand(int Id, [FromBody] BrandDto newBrand)
+        {
+            try
+            {
+                var CurrentBrand = GetBrandById(Id);
+
+                if (CurrentBrand != null)
+                {
+                    if (newBrand == null)
+                    {
+                        _logger.LogError("Boş Değer Gönderemezsin !");
+                        return BadRequest();
+                    }
+
+
+                    _repo.UpdateBrand(Id, newBrand);
+                    return Ok(newBrand);
+                }
+
+                _logger.LogError("Verilen Id'ye Ait Marka Bulunamadı ID: " + Id);
+                return BadRequest();
+
+
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Bilinmeyen Bir Hata Oluştu");
+                throw;
+            }
+
+        }
+
         [HttpGet]
         public IActionResult GetAllBrandsProducts()
         {
@@ -111,6 +147,30 @@ namespace SaleManagement.Controllers
                 throw;
             }
         }
+
+        [HttpPost]   // MANTIĞINI TEKRAR ET
+        public IActionResult AddBrand([FromBody] BrandDto brandDto)
+        {
+            try
+            {
+                if (brandDto == null || string.IsNullOrWhiteSpace(brandDto.Name))
+                {
+                    _logger.LogError("Marka adı boş olamaz!");
+                    return BadRequest("Marka adı boş olamaz!");
+                }
+
+                _repo.AddBrand(brandDto);
+                return Ok(brandDto);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Marka eklenirken hata oluştu.");
+                return StatusCode(500, "Marka eklenirken bir hata oluştu.");
+            }
+        }
+
+
+
 
         [HttpGet("product-brand/{Name}")]
         public IActionResult GetProductsByBrand(string Name)

@@ -41,6 +41,9 @@ namespace SaleManagement.Repositories.Implementations
                     _logger.LogError("");
                 }
 
+                _db.Remove(DeletedBrand);
+                _db.SaveChanges();
+
             }catch (Exception ex)
             {
                 throw new Exception("Bilinmeyen bir hata oluştu");
@@ -144,6 +147,65 @@ namespace SaleManagement.Repositories.Implementations
                 _logger.LogError(ex,"Bilinmeyen bir problem oluştu");
                 throw;
             }
+        }
+
+        public void AddBrand(BrandDto brandDto) // MANTIĞINI TEKRAR ET
+        {
+            try
+            {
+                var newBrand = new Brand
+                {
+                    Name = brandDto.Name,
+                    Products = brandDto.Products?.Select(p => new Product
+                    {
+                         Name=p.Name,
+                         Price=p.Price,
+                         Stock=p.Stock,
+                         Description=p.Description,
+                         CustomerId = p.CustomerId
+                    }).ToList()
+                };
+
+
+                _db.Brands.Add(newBrand);
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Marka eklenirken hata oluştu.");
+                throw;
+            }
+        }
+
+
+
+        public void UpdateBrand(int Id, BrandDto NewBrand) // GÖZDEN GEÇİR
+        {
+
+            try
+            {
+                var currentBrand = GetBrandById(Id);
+
+                if (currentBrand ==null)
+                {
+                    _logger.LogError("Verilen Id'ye ait bir kullanıcı mevcut değil ID : " + Id);
+                    return;
+                }
+                else
+                {
+                    currentBrand.Name = NewBrand.Name;
+                    _db.Update(currentBrand);
+                    _db.SaveChanges();
+                }
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError("Bilinmeyen Bir Hata Oluştu");
+                throw;
+            }
+            
+
+
         }
     }
 }

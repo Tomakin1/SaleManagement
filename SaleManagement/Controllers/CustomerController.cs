@@ -96,24 +96,62 @@ namespace SaleManagement.Controllers
             }
         }
 
-        //[HttpPost]
-        //public IActionResult AddCustomer([FromBody] Customer customer)
-        //{
-        //    if (customer == null)
-        //    {
-        //        return BadRequest("Geçersiz müşteri verisi.");
-        //    }
+        [HttpPost] // MANTIĞINI TEKRAR ET
+        public IActionResult AddCustomer([FromBody] CustomerDto customerDto)
+        {
+            if (customerDto == null)
+            {
+                return BadRequest(new { message = "Geçersiz müşteri verisi." });
+            }
 
-        //    try
-        //    {
-        //        _repo.AddCustomer(customer);
-        //        return StatusCode(201, "Müşteri Eklendi");
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return StatusCode(500, $"Müşteri eklenirken bir hata oluştu: {e.Message}");
-        //    }
-        //}
+            try
+            {
+                _repo.AddCustomer(customerDto);
+                return StatusCode(201, new { message = "Müşteri başarıyla eklendi." });
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, new { message = $"Müşteri eklenirken bir hata oluştu: {e.Message}" });
+            }
+        }
+
+
+        [HttpPut("{Id:int}")]
+        public IActionResult UpdateCustomer(int Id, [FromBody]CustomerDto customerDetail)
+        {
+
+            try
+            {
+                var CurrentCustomer = GetCustomerById(Id);
+
+                if (CurrentCustomer != null)
+                {
+                    if (customerDetail == null)
+                    {
+                        _logger.LogError("Boş Değer Gönderemezsin !");
+                        return BadRequest();
+                    }
+
+
+                    _repo.UpdateCustomer(Id, customerDetail);
+                    return Ok(customerDetail);
+                }
+
+                _logger.LogError("Verilen Id'ye Ait Kullanıcı Bulunamadı ID: " + Id);
+                return BadRequest();
+
+
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Bilinmeyen Bir Hata Oluştu");
+                throw;
+            }
+
+
+
+        }
 
 
         [HttpGet("{FirstName}")]

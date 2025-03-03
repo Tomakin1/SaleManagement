@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using SaleManagement.Context;
 using SaleManagement.Dtos;
 using SaleManagement.Models;
@@ -9,10 +10,12 @@ namespace SaleManagement.Repositories.Implementations
     public class CustomerRepository : ICustomerRepository
     {
         private readonly SaleContext _db;
+        private readonly ILogger<CustomerRepository> _logger;
 
-        public CustomerRepository(SaleContext db)
+        public CustomerRepository(SaleContext db, ILogger<CustomerRepository> logger)
         {
             _db = db;
+            _logger = logger;
         }
 
         
@@ -34,15 +37,14 @@ namespace SaleManagement.Repositories.Implementations
 
         public void DeleteCustomer(int Id)
         {
-            
-
             try
             {
                 var deletedCustomer = _db.Customers.Find(Id);
 
                 if (deletedCustomer == null)
                 {
-                    throw new KeyNotFoundException($"Müşteri bulunamadı. ID: {Id}");
+                    _logger.LogError("Verilen Id'ye Sahip Bir Kullanıcı bulunamadı" +Id);
+                    return;
                 }
 
                 _db.Remove(deletedCustomer);
@@ -54,27 +56,78 @@ namespace SaleManagement.Repositories.Implementations
             }
         }
 
-        //public void AddCustomer(Customer Customer)
-        //{
-        //    try
-        //    {
-        //        var newCustomer = new Customer
-        //        {
-        //            Firstname = Customer.Firstname,
-        //            Lastname = Customer.Lastname,
-        //            Products = new List<Product>() // Ürünler eğer varsa eklenebilir
-        //        };
+        public void AddCustomer(CustomerDto customerDto) // MANTIĞINI TEKRAR ET
+        {
+            try
+            {
+                var newCustomer = new Customer
+                {
+                    Firstname = customerDto.Firstname,
+                    Lastname = customerDto.Lastname,
+                    Products = customerDto.Products?.Select(p => new Product
+                    {
+                        Name = p.Name,
+                        Price = p.Price,
+                        Stock = p.Stock,
+                        Description = p.Description,
+                        BrandId = p.BrandId
 
-        //        _db.Customers.Add(newCustomer);
-        //        _db.SaveChanges();
+                    }).ToList(),
 
+                    CustomerDetail=customerDto.CustomerDetailDto != null ? new CustomerDetail
+                    {
+                        Age=customerDto.CustomerDetailDto.Age,
+                        Address=customerDto.CustomerDetailDto.Address,
+                        Job=customerDto.CustomerDetailDto.Job,
+                        
+                    } : null
+                };
+                _db.Customers.Add(newCustomer);
+                _db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Hata oluştu: {e.Message}");
+                Console.WriteLine($"Inner Exception: {e.InnerException?.Message}");
+                Console.WriteLine($"StackTrace: {e.StackTrace}");
+                throw;
+            }
+
+        }
+
+
+
+        public void UpdateCustomer(int Id, CustomerDto newCustomerDetail)
+        {
+            try
+            {
+                var CurrentCustomerDetail = GetCustomerById(Id);
+
+                if (CurrentCustomerDetail==null)
+                {
+                    _logger.LogError("Verilen Id'ye Sahip Bir Kullanıcı Bulunamadı");
+                    return;
+                }
+
+                CurrentCustomerDetail.Firstname = newCustomerDetail.Firstname;
+                CurrentCustomerDetail.Lastname = newCustomerDetail.Lastname;
                 
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        throw new Exception("Müşteri eklenirken bir hata oluştu.", e);
-        //    }
-        //}
+
+
+
+
+
+                _db.Update(CurrentCustomerDetail);
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Bilinmeyen Bir Hata Oluştu: {ex.Message}");
+                throw;
+            }
+        }
+
+
 
 
 
@@ -100,26 +153,25 @@ namespace SaleManagement.Repositories.Implementations
             }
         }
 
-        public CustomerDto GetCustomerDetailsByName(string Name)
+        public CustomerDto GetCustomerDetailsByName(string Name) // MANTIĞINI TEKRAR ET
         {
             try
             {
                 var customer = _db.Customers
                     .Where(c => c.Firstname == Name)
-                    .Select(c => new CustomerDto
+                    .Select(x => new CustomerDto
                     {
-                        Firstname=c.Firstname,
-                        Lastname=c.Lastname,
-                        Products= c.Products.Select(p=> new ProductDto
+                        Id = x.Id,
+                        Firstname = x.Firstname,
+                        Lastname = x.Lastname,
+                        CustomerDetailDto = x.CustomerDetail != null ? new CustomerDetailDto
                         {
-                            Name=p.Name,
-                            Description=p.Description,
-                            Price=p.Price,
-                            Stock= p.Stock
-                        }).ToList()
-
-
-                    }).SingleOrDefault();
+                            Id = x.CustomerDetail.Id,
+                            Age = x.CustomerDetail.Age,
+                            Address = x.CustomerDetail.Address,
+                            Job = x.CustomerDetail.Job
+                        } : null
+                    }).FirstOrDefault();
 
                 if (customer == null)
                 {
@@ -133,6 +185,7 @@ namespace SaleManagement.Repositories.Implementations
                 throw new Exception("Müşteri alınırken beklenmeyen bir hata oluştu.", e);
             }
         }
+
 
         public CustomerDto GetCustomerProductsByName(string Firstname, string Lastname)
         {

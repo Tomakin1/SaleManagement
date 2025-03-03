@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SaleManagement.Dtos;
+using SaleManagement.Models;
 using SaleManagement.Repositories.Implementations;
 using SaleManagement.Repositories.Interfaces;
 
@@ -51,6 +52,40 @@ namespace SaleManagement.Controllers
             }
         }
 
+        [HttpPut("{Id:int}")]
+        public IActionResult UpdateProduct(int Id, [FromBody] ProductDto newProduct)
+        {
+            try
+            {
+                var CurrentProduct = GetProductById(Id);
+
+                if (CurrentProduct!=null)
+                {
+                    if (newProduct == null)
+                    {
+                        _logger.LogError("Boş Değer Gönderemezsin !");
+                        return BadRequest();
+                    }
+
+
+                    _repo.UpdateProduct(Id, newProduct);
+                    return Ok(newProduct);
+                }
+
+                _logger.LogError("Verilen Id'ye Ait Ürün Bulunamadı ID: " + Id);
+                return BadRequest();
+
+
+                
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Bilinmeyen Bir Hata Oluştu");
+                throw;
+            }
+
+        }
+
 
         [HttpGet]
         public IActionResult GetNameStock()   
@@ -99,6 +134,28 @@ namespace SaleManagement.Controllers
                 return StatusCode(500, new { message = "Bilinmeyen bir hata oluştu." });
             }
         }
+
+        [HttpPost("add")]   // Customer Id boş bırakınca FK Hatası Alıyorum // MANTIĞINI TEKRAR ET
+        public IActionResult AddProduct([FromBody] ProductDto productDto)
+        {
+            try
+            {
+                if (productDto == null)
+                {
+                    _logger.LogError("Boş bir ürün eklemeye çalışıyorsunuz!");
+                    return BadRequest(new { message = "Ürün bilgisi boş olamaz." });
+                }
+
+                _repo.AddProduct(productDto);
+                return Ok(new { message = "Ürün başarıyla eklendi.", product = productDto });
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Ürün eklenirken hata oluştu.");
+                return StatusCode(500, new { message = "Ürün eklenirken bir hata oluştu." });
+            }
+        }
+
 
         [HttpGet("{Id:int}")]
         public IActionResult GetProductById(int Id)

@@ -6,6 +6,6 @@ namespace SaleManagement.Dtos
     {
         public int Id { get; set; }
         public string Name { get; set; } = default!;
-        public ICollection<ProductDto> Products { get; set; } = new List<ProductDto>();
+        public ICollection<ProductDto>? Products { get; set; } = new List<ProductDto>();
     }
 }

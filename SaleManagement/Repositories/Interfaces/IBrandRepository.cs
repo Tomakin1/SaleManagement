@@ -10,6 +10,9 @@ namespace SaleManagement.Repositories.Interfaces
         Brand GetBrandById(int Id);
         List<BrandDto> GetAllBrandsProducts();  // bütün markaları ürünleriyle getirmek için
         BrandDto GetProductsByBrand(string Name); // ismi verilen markanın ürünleri
+        void UpdateBrand(int Id,BrandDto NewBrand);
+        void AddBrand(BrandDto brandDto);
+
 
 
     }
